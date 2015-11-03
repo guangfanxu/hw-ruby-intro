@@ -4,7 +4,12 @@
 
 def sum arr
   # YOUR CODE HERE
-  return 0
+  return 0 if arr.empty?
+  s=0
+   arr.each do |x| 
+     s += x 
+  end
+  return s
 end
 
 def max_2_sum arr
